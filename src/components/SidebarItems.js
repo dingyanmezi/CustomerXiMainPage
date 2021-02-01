@@ -61,7 +61,7 @@ const SidebarItems = [
     {
         name: "Settings",
         route: '/page-2',
-        icon: require('../images/ic_person.png'),
+        icon: require('../images/setting.jpg'),
         arrow: require('../images/downarrow.png')
     },
     // {
