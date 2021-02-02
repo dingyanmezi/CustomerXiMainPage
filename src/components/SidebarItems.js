@@ -1,9 +1,4 @@
 const SidebarItems = [
-    // {
-    //     name: "Alex's Worksapce",
-    //     route: '/',
-    //     icon: require('../images/companyLogo.jpeg')
-    // },
     {
         name: "Profile",
         route: '/dashboard',
@@ -12,7 +7,7 @@ const SidebarItems = [
     },
     {
         name: "Business Hub",
-        route: '/page-1',
+        route: '/business-hub',
         icon: require('../images/suitcase.png'),
         arrow: require('../images/white.png')
     },
@@ -60,15 +55,10 @@ const SidebarItems = [
     },
     {
         name: "Settings",
-        route: '/page-2',
+        route: '/setting',
         icon: require('../images/setting.jpg'),
         arrow: require('../images/downarrow.png')
     },
-    // {
-    //     name: "Settings",
-    //     route: 'page-3',
-    //     icon: require('../images/ic_person.png')
-    // },
 ];
 
 export default SidebarItems;

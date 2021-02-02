@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Page2(props) {
+function Setting(props) {
     return (
         <div style={{marginLeft: "30px"}}>
             <h2 style={{marginTop: "70px"}}> General Settings</h2>
             <div style={{display: "inline-block"}}>
                 <p style={{float: "left"}}>There will be info here about GDPR Consent Guidelines soon. </p>
-                <a href="https://www.customerxi.com/" style={{textDecoration: "none", float: "right", color: "blue"}}> Learn about more</a>
+                <a href="https://www.customerxi.com/" style={{textDecoration: "none", float: "right", color: "dodgerblue"}}> Learn about more</a>
             </div>
             
             <h3 style={{marginTop: "70px"}}>Workspace Name</h3>
@@ -17,4 +17,4 @@ function Page2(props) {
     );
 }
 
-export default Page2;
+export default Setting;

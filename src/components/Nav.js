@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components'
 import { Avatar } from "react-native-elements";
-import { Nav } from 'rsuite';
+import { Nav, Icon } from 'rsuite';
+
+import 'rsuite/lib/styles/index.less';
 
 function NavUp(props) {
     return (
@@ -22,13 +24,17 @@ function NavUp(props) {
                        />
                    </div>
                    <img id="arr" src={require('../images/downarrow-solid.png')} />
+                   <Icon icon='question2' style={{marginRight: "50px", top: "110px", right: "10px", position: "absolute"}} />
                </div>
                <h2>Settings</h2>
            </TopRight>
-           <Nav appearance="tabs">
-                <Nav.Item>Default Item</Nav.Item>
-                
-            </Nav>
+           <div style={{marginTop: "57px"}}> 
+                <Nav appearance="subtle">
+                    <Nav.Item active style={{marginLeft: "30px"}}>General</Nav.Item>
+                    <Nav.Item style={{marginLeft: "30px", Color: "#000000"}}>Access</Nav.Item>
+                </Nav>
+           </div>
+           
         </div>
         
     );
